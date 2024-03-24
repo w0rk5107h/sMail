@@ -236,6 +236,11 @@ def setup_postfix_for_mysql():
         ]
         for file in files:
             create_new_file(file[0], file[1])
+
+        append_to_file(
+            '/etc/postfix/main.cf',
+            'smtp_helo_name = $mydomain'
+        )
         
         commands = [
             ['postconf virtual_mailbox_domains=mysql:/etc/postfix/mysql-virtual-mailbox-domains.cf', '[-] Error while setting up virtual_mailbox_domains:'],
