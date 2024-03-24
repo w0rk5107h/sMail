@@ -43,7 +43,7 @@ Before you begin make sure these 3 packages are installed:
 
 This can be done with a simple command:
 
-    sudo apt install -y python3 python3-bcrypt tmux
+    sudo apt install -y python3 python3-bcrypt git tmux
 
 ### 2.4 *DNS and Hostname*
 Before you begin you must decide a hostname for your server. This is how your server will be known on the internet.
