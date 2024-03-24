@@ -38,6 +38,7 @@ Before installing you should update and upgrade all the packages of your server.
 Before you begin make sure these 3 packages are installed:
 - `python3`: To run the scripts.
 - `python3-bcrypt`: To hash passwords in Blf-Crpt algo.
+- `git`: To clone this repo to the server.
 - `tmux`: [Optional] [Recommended] For redundancy if ssh session crashes.
 
 This can be done with a simple command:
