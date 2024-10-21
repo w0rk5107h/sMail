@@ -146,7 +146,7 @@ To add account in the 3rd party mail client you'll need to add the server detail
     Username: user@foo.bar
     Password: password
     Server: mail.foo.bar
-    Security Type: TLS (Sometimes mentioned as STARTTLS)
+    Security Type: STARTTLS
     Port: 587
 
 
@@ -156,7 +156,7 @@ To add account in the 3rd party mail client you'll need to add the server detail
     Username: user@foo.bar
     Password: password
     Server: mail.foo.bar
-    Security Type: TLS (Sometimes mentioned as STARTTLS)
+    Security Type: SSL/TLS
     Port: 993
 
 Please note that `Email` and `Username` are used interchangeably in most cases. So you can use email as the username while setting up your mail in 3rd party mail clients.
